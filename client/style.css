@@ -115,7 +115,7 @@ body {
 form {
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-bottom: 8px;
   padding: 10px;
   background: #40414F;
@@ -154,53 +154,10 @@ form img {
   height: 30px;
 }
 
-@media only screen and (max-width: 600px) {
-  #app {
-    flex-direction: column;
-  }
 
-  .chat {
-    flex-direction: column;
-  }
-
-  .message {
-    font-size: 16px;
-  }
-
-  textarea {
-    font-size: 14px;
-  }
-
-  form img {
-    width: 25px;
-    height: 25px;
-  }  
-}  
-
- @media only screen and (max-width: 1024px) {  
-
-   #app {
-     flex-direction: column;
-   }
-
-   .chat {
-     flex-direction: column;
-   }
-
-   .message {
-     font-size: 18px;
-   }
-
-   textarea {
-     font-size: 16px;
-   }
-
-   form img {
-     width: 30px;
-     height: 30px;     														                                                                                                                                            }     	}
 
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =============*/
-/* @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
   form {
     margin:1px;
   }
@@ -211,10 +168,10 @@ form img {
   #chat_container::-webkit-scrollbar {
     display: none;
   }  
-  } */
+  }
 
 /*============= MEDIA QUERIES (SMALL DEVICES) =============*/
-/* @media screen and (max-width:600px){
+@media screen and (max-width:600px){
   form {
     margin:1px;
   }
@@ -225,4 +182,4 @@ form img {
   #chat_container::-webkit-scrollbar {
     display: none;
   }  
-} */
+}
