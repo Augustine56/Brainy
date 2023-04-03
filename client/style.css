@@ -156,22 +156,28 @@ form img {
 
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =============*/
 @media screen and (max-width: 1024px){
-  /* form {
+  form {
     margin:1px;
-  } */
-  .message::-webkit-scrollbar {
-    display: none;
   }
-  
+  #chat_container {
+    -ms-overflow-style: none;
+  scrollbar-width: none;
+  }
+  #chat_container::-webkit-scrollbar {
+    display: none;
+  }  
   }
 
 /*============= MEDIA QUERIES (SMALL DEVICES) =============*/
 @media screen and (max-width:600px){
-  /* form {
+  form {
     margin:1px;
-  } */
-  .message::-webkit-scrollbar {
-    display: none;
   }
-  
+  #chat_container {
+    -ms-overflow-style: none;
+  scrollbar-width: none;
+  }
+  #chat_container::-webkit-scrollbar {
+    display: none;
+  }  
 }
