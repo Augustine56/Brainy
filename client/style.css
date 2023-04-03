@@ -161,10 +161,10 @@ form img {
   form {
     margin:2px;
   }
-  #app {
+  /* #app {
     position: fixed;
     width:100%;
-  }
+  } */
   /* #chat_container {
     -ms-overflow-style: none;
   scrollbar-width: none;
@@ -179,10 +179,10 @@ form img {
   form {
     margin:2px;
   }
-  #app {
+  /* #app {
     position: fixed;
     width:100%;
-  }
+  } */
   /* #chat_container {
     -ms-overflow-style: none;
   scrollbar-width: none;
