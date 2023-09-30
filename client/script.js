@@ -1,6 +1,8 @@
 import bot from './assets/bot.svg'
 import user from './assets/user.svg'
+// import TelegramBot from 'node-telegram-bot-api';
 
+// const bot2 = new TelegramBot('TELEGRAM_BOT_API', { polling: true });
 const form = document.querySelector('form')
 const chatContainer = document.querySelector('#chat_container')
 
@@ -61,6 +63,7 @@ function chatStripe(isAi, value, uniqueId) {
     `
     )
 }
+
 
 const handleSubmit = async (e) => {
     e.preventDefault()
